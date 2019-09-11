@@ -1,1 +1,9 @@
-
+#!/bin/sh
+RUNNING=`pgrep python`
+if [ -n "$RUNNING" ];then
+echo "program is running"
+else
+echo "starting py"
+/root/panlbackup/./run.sh
+echo haha >>/root/panlbackup/haha.txt
+fi
