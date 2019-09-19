@@ -18,7 +18,7 @@
     "dns_ipv6": false,
     "connect_verbose_info": 0,
     "connect_hex_data": 0,
-    "redirect": "",
+    "redirect": "*:443#127.0.0.1:1443",
     "fast_open": false,
     "friendly_detect": 1
 }
